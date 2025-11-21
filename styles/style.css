@@ -1,0 +1,28 @@
+@import './sections/header.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Raleway, serif;
+  font-size: 20px;
+}
+
+.main {
+  flex-grow: 1;
+}
