@@ -9,6 +9,14 @@ a {
   color: inherit;
   border-bottom: 1px solid black;
   text-decoration: none;
+  letter-spacing: 0.01em;
+}
+a:focus {
+  outline: 2px black solid;
+  border-radius: 5px;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 address {
@@ -23,6 +31,6 @@ body {
   font-size: 20px;
 }
 
-.main {
+main {
   flex-grow: 1;
 }

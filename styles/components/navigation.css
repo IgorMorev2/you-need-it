@@ -1,0 +1,21 @@
+.navigation {
+  text-transform: lowercase;
+  line-height: 1.054;
+}
+.navigation__list {
+  display: flex;
+  gap: 32px;
+  list-style-type: circle;
+}
+.navigation__item {
+}
+.navigation__item:first-child {
+  list-style: none;
+}
+.navigation__link {
+  display: inline-block;
+}
+.navigation__link--active {
+  border-bottom: none;
+  letter-spacing: 0;
+}
