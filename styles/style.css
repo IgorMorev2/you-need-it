@@ -1,6 +1,7 @@
 @import "./sections/header.css";
 @import "./sections/cover.css";
 @import "./sections/lots.css";
+@import "./sections/about.css";
 
 @import "./components/navigation.css";
 @import "./components/contact-info.css";
