@@ -8,9 +8,11 @@
 }
 .contact-info__phone {
   white-space: nowrap;
+  border-bottom: 1px solid black;
 }
 .contact-info__email {
   white-space: nowrap;
+  border-bottom: 1px solid black;
 }
 .contact-info__address {
 }

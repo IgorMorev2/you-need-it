@@ -7,13 +7,13 @@
   gap: 32px;
   list-style-type: circle;
 }
-.navigation__item {
-}
+.navigation__item {}
 .navigation__item:first-child {
   list-style: none;
 }
 .navigation__link {
   display: inline-block;
+  border-bottom: 1px solid black;
 }
 .navigation__link--active {
   border-bottom: none;
