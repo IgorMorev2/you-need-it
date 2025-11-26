@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top: 131px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+}
+.footer__contact-info {
+}
+.footer__nav {
+}
+.footer__socials {
+}

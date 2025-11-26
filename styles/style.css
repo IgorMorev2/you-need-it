@@ -2,12 +2,14 @@
 @import "./sections/cover.css";
 @import "./sections/lots.css";
 @import "./sections/about.css";
+@import "./sections/footer.css";
 
 @import "./components/navigation.css";
 @import "./components/contact-info.css";
 @import "./components/overlay.css";
 @import "./components/button.css";
 @import "./components/lot.css";
+@import "./components/socials.css";
 
 * {
   box-sizing: border-box;

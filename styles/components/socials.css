@@ -1,0 +1,11 @@
+.socials {
+  list-style-type: none;
+  display: flex;
+  gap: 48px;
+}
+.socials__item {
+}
+.socials__link {
+}
+.socials__link-icon {
+}
