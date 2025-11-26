@@ -1,6 +1,6 @@
 .navigation {
-  text-transform: lowercase;
   line-height: 1.054;
+  text-transform: lowercase;
 }
 .navigation__list {
   display: flex;

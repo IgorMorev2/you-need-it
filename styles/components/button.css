@@ -1,0 +1,12 @@
+.button {
+  min-height: 51px;
+  padding: 11px 28px 10px 28px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 22px;
+  line-height: 1.18;
+  font-weight: 500;
+  border: white 1px solid;
+  letter-spacing: 0.3px;
+  word-spacing: -3px;
+}

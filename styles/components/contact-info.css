@@ -1,0 +1,16 @@
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 234.5px;
+  line-height: 1.35;
+}
+.contact-info__phone {
+  white-space: nowrap;
+}
+.contact-info__email {
+  white-space: nowrap;
+}
+.contact-info__address {
+}

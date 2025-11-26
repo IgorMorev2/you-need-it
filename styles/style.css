@@ -1,4 +1,10 @@
-@import './sections/header.css';
+@import "./sections/header.css";
+@import "./sections/cover.css";
+
+@import "./components/navigation.css";
+@import "./components/contact-info.css";
+@import "./components/overlay.css";
+@import "./components/button.css";
 
 * {
   margin: 0;
@@ -6,18 +12,28 @@
 }
 
 a {
-  color: inherit;
   border-bottom: 1px solid black;
-  text-decoration: none;
+  color: inherit;
   letter-spacing: 0.01em;
+  text-decoration: none;
 }
 a:focus {
-  outline: 2px black solid;
   border-radius: 5px;
+  outline: 2px black solid;
 }
 a:hover {
-  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
 }
+
+button {
+  color: inherit;
+}
+button:focus {
+  border-radius: 5px;
+  outline: 2px inherit solid;
+  outline-offset: 5px;
+}
+
 
 address {
   font-style: normal;
