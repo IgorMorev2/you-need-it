@@ -14,15 +14,15 @@
   background-size: cover;
 }
 .cover__title {
-  grid-column: 1 / -1;
-  grid-row: 1 / 3;
-  text-transform: uppercase;
-  font-size: 100px;
-  font-weight: 700;
-  letter-spacing: 30px;
   display: flex;
   flex-direction: column;
+  grid-column: 1 / -1;
+  grid-row: 1 / 3;
   gap: 10px;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
 }
 .cover__title-phrase {
   word-spacing: -24px;
@@ -34,8 +34,8 @@
 }
 .cover__title-phrase--right {
   align-self: flex-end;
-  line-height: 1.03;
   margin-right: -30px;
+  line-height: 1.03;
 }
 .cover__title-phrase--lt-accent {
   word-spacing: 10px;

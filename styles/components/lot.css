@@ -1,0 +1,33 @@
+.lot {
+  position: relative;
+  z-index: -2;
+  display: grid;
+  box-sizing: border-box;
+  width: 334px;
+  min-height: 563px;
+  padding: 52px 40px 48px 40px;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.lot--film {
+  background-image: url('../../images/lot-film.png');
+}
+.lot--book {
+  background-image: url('../../images/lot-book.png');
+}
+.lot--picture {
+  background-image: url('../../images/lot-picture.png');
+}
+.lot__title {
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
+  word-spacing: -0.8px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.lot__description {
+  align-self: self-end;
+}
